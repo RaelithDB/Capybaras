@@ -116,7 +116,7 @@ void main()
     Animal* animals[4] = { new Dog("Bob"),
         new Cat("Murka"),
         new Frog("Pupsik"),
-        new Lion("King") };
+       
     for (int k = 0; k < 4; k++)
     {
         animals[k]->speak();
